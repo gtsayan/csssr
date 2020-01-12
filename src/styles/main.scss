@@ -5,3 +5,28 @@
 @import "base/fonts";
 @import "base/general";
 @import "../blocks/modules";
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(136, 126, 126);
+    font-family: "PT Sans";
+    font-size: 21px;
+}
+
+.site-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px 50px 60px 110px;
+    background-image: url(../img/site-bg.png);
+
+}
+
+.site-inner {
+    padding: 0 110px;
+}

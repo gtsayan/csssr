@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 224px;
+    display: flex;
+    justify-content: space-between;
+    // margin: 60px 50px 60px 110px;
+}
+
+.header__item {
+    width: 30%;
+}
+
+.header__logo {
+
+
+    background: url(../../../img/header/logo.png) no-repeat;
+
+
+}
+
+.header__title {
+
+
+    background: url(../../../img/header/title.png) no-repeat;
+    background-position: -5px 105px;
+}
+
+.header__shtamp {
+
+
+    background: url(../../../img/header/shtamp.png) no-repeat;
+
+
+}
