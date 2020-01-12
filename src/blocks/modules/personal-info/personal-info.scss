@@ -1,3 +1,7 @@
+.personal-info {
+    margin-bottom: 70px;
+}
+
 .personal-info__item {
     display: flex;
     align-items: flex-end;
@@ -29,6 +33,7 @@
     // background-repeat: no-repeat;
     background-position: -16px 12px;
     background-size: cover;
+    background-repeat: round;
     padding-bottom: 20px;
     padding-left: 15px;
 

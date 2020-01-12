@@ -33,13 +33,15 @@
     <div class="site-container">
 
         @@include("../blocks/modules/header/header.html")
-        <div class="site-inner"></div>
-        @@include("../blocks/modules/personal-info/personal-info.html")
-        @@include("../blocks/modules/footer/footer.html")
-        <script src="../js/main.js"></script>
-        <script src="../js/vendor.js"></script>
+        <div class="site-inner">
+            @@include("../blocks/modules/personal-info/personal-info.html")
+            @@include("../blocks/modules/checkboxes/checkboxes.html")
+            @@include("../blocks/modules/js-level/js-level.html")
+            @@include("../blocks/modules/footer/footer.html")
+            <script src="../js/main.js"></script>
+            <script src="../js/vendor.js"></script>
 
-    </div> <!-- site-inner -->
+        </div> <!-- site-inner -->
     </div> <!-- site-container -->
 </body>
 
