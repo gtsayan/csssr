@@ -1,0 +1,59 @@
+.footer {}
+
+.footer__date {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.footer__date-title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 49.83px;
+    margin-right: 20px;
+}
+
+.footer__date-cell {
+    background: url(../../../img/personal-info/input-underline.png);
+    background-size: cover;
+    background-position: -20px 15px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+
+}
+
+.footer__date-value {
+
+    color: #231f20;
+    font-family: "Courier New PSMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+
+
+
+/*  To remove cross sign */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+input[type="date"]::-ms-clear {
+    display: none;
+}
+
+/* To remove Spin Arrows */
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* To remove Drop down Arrow */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
