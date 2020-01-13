@@ -1,0 +1,35 @@
+.about-me {
+    margin-bottom: 48px;
+}
+
+.about-me__title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49.83px;
+}
+
+.about-me__text {
+    color: #3d3d3d;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 47px;
+}
+
+.about-me__field {
+    width: 100%;
+    color: #231f20;
+    font-family: "Courier New PSMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    background-image: url(../../../img/personal-info/input-underline.png);
+    background-repeat: repeat-y;
+    background-position: -20px 107px;
+    background-size: 830px 43px;
+    margin-bottom: 12px;
+
+}

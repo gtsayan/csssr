@@ -1,0 +1,71 @@
+.plans {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.plans__title {
+    width: 100%;
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.plans__text {
+    width: 100%;
+    color: #3d3d3d;
+    font-family: "PT Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 25px;
+
+}
+
+.plans__radio {
+    // width: 100%;
+    color: indigo;
+    -webkit-appearance: none;
+}
+
+.plans__items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.plans__item {
+    position: relative;
+    padding-left: 33px;
+    color: #000000;
+    font-family: "PT Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-left: 22px;
+
+}
+
+.plans__item:first-child {
+    margin-left: 0;
+}
+
+.plans__label {
+    cursor: pointer;
+}
+
+
+.plans__radio::before {
+    content: url(../../../img/plans/uncheked.png);
+    width: 41px;
+    height: 45px;
+    position: absolute;
+    top: -9px;
+    left: -7px;
+}
+
+.plans__radio:checked::before {
+    content: url(../../../img/plans/checked.png);
+}
