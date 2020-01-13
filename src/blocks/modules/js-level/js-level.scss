@@ -1,0 +1,96 @@
+.js-level {
+    margin-bottom: 60px;
+}
+
+.js-level__title {
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 49.83px;
+    margin-bottom: 25px;
+}
+
+.js-level__ruler {
+    width: 100%;
+    display: flex;
+    position: relative;
+
+}
+
+
+
+.js-level__levels {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: url(../../../img/js-level/scale.png);
+    border: none;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.js-level__level1 {
+    width: 150px;
+}
+
+.js-level__level {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.js-level__radio {
+    -webkit-appearance: none;
+}
+
+.js-level__label1 {}
+
+.js-level__label {
+    cursor: pointer;
+    color: #2f1b15;
+    font-family: "PT Sans";
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.js-level__label::after {
+    opacity: 0;
+    transition: opacity 1s linear;
+    content: url(../../../img/js-level/pointer.png);
+    position: absolute;
+    top: -20px;
+}
+
+.js-level__label1::after {
+    left: -7px;
+}
+
+.js-level__label2::after {
+    left: 145px;
+}
+
+.js-level__label3::after {
+    left: 376px;
+}
+
+.js-level__label4::after {
+    right: -6px;
+}
+
+.js-level__level2 {
+    width: 222px
+}
+
+.js-level__level3 {
+    width: 260px
+}
+
+.js-level__radio:checked+.js-level__label::after {
+    opacity: 1;
+}
