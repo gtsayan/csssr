@@ -61,7 +61,7 @@
 
 .js-level__label::after {
     opacity: 0;
-    transition: opacity 1s linear;
+    transition: opacity .5s linear;
     content: url(../../../img/js-level/pointer.png);
     position: absolute;
     top: -20px;
